@@ -26,7 +26,6 @@
   "funding": "https://github.com/sponsors/typicode",
   "license": "MIT",
   "author": "Typicode <typicode@gmail.com>",
-  "type": "module",
   "exports": "./lib/index.js",
   "types": "lib",
   "files": [
