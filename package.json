@@ -41,8 +41,7 @@
     "lint": "eslint src --ext .ts --ignore-path .gitignore",
     "build": "del-cli lib && tsc",
     "prepublishOnly": "npm run build",
-    "postversion": "git push && git push --tags && npm publish",
-    "prepare": "husky install"
+    "postversion": "git push && git push --tags && npm publish"
   },
   "dependencies": {
     "steno": "^2.1.0"
@@ -57,7 +56,6 @@
     "@typicode/eslint-config": "^1.0.0",
     "del-cli": "^4.0.1",
     "eslint": "^8.10.0",
-    "husky": "^7.0.4",
     "lodash": "^4.17.21",
     "tempy": "^2.0.0",
     "typescript": "^4.6.2",
