@@ -1,5 +1,5 @@
 import fs from 'fs'
-import { Writer } from 'steno'
+import { Writer } from 'xcraft-steno'
 
 import { Adapter } from '../Low.js'
 

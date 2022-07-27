@@ -43,7 +43,7 @@
     "postversion": "git push && git push --tags && npm publish"
   },
   "dependencies": {
-    "steno": "^2.1.0"
+    "xcraft-steno": "^2.1.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.2.1",
