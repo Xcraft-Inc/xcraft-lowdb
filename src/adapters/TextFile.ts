@@ -1,4 +1,4 @@
-import fs from 'fs'
+import * as fs from 'fs'
 import { Writer } from 'xcraft-steno'
 
 import { Adapter } from '../Low.js'

@@ -1,5 +1,5 @@
 import { deepStrictEqual as deepEqual, throws } from 'assert'
-import fs from 'fs'
+import * as fs from 'fs'
 import tempy from 'tempy'
 
 import { JSONFileSync } from './adapters/JSONFileSync.js'

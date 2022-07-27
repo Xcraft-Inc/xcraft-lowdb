@@ -2,6 +2,7 @@
   "extends": "@sindresorhus/tsconfig",
   "compilerOptions": {
     "outDir": "./lib",
-    "module": "commonjs"
+    "module": "commonjs",
+    "allowSyntheticDefaultImports": false
   }
 }

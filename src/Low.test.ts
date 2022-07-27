@@ -3,8 +3,8 @@ import {
   strictEqual as equal,
   throws,
 } from 'assert'
-import fs from 'fs'
-import lodash from 'lodash'
+import * as fs from 'fs'
+import * as lodash from 'lodash'
 import tempy from 'tempy'
 
 import { JSONFile } from './adapters/JSONFile.js'
